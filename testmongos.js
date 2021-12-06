@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 mongoose.connect('mongodb://localhost/test')
-const schema = {name: String,age:Number,health:String}
+const schema = {name: String,age:Number,health:String,hobby:String}
 const cats = mongoose.model('cats', schema)
 
 // const kitty = new Cat({ name: 'zhao'})
